@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9f1bf32830.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -37,11 +39,15 @@
         </div>
 
         <div class="flexbox-item flexbox-item-body">
+
             <div class="date-dropdown">
-                <select>
-                    <option>April 2020</option>
-                </select>
+                <form>
+                  <label for="birthday">Please select a date:</label>
+                  <input type="date" class="date">
+                  <input type="submit">
+                </form>
             </div>
+
             <div class="event-container">
                 <div class="event">
                     <div class="event-left">
@@ -156,7 +162,44 @@
         </div>
 
         <div class="flexbox-item flexbox-item-footer">
-            <p>This is my footer</p>
+            <div class="footer-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.70689991404!2d-122.5019120245391!3d37.86714797196227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085856382fa7877%3A0xcf9a82473fdffaef!2sGriot%20Theatre%20Company!5e0!3m2!1sen!2sus!4v1686207930410!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="footer-info">
+                <div class="footer-info-title">
+                    <h2>Info</h2>
+                </div>
+                <div class="footer-info-list">
+                    <ul>
+                        <li>Chicago, IL 60611 United States</li>
+                        <li>exmample@example.com</li>
+                        <li>Call Us: 708-555-4488</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-shows">
+                <div class="footer-shows-title">
+                    <h2>Shows</h2>
+                </div>
+                <div class="footer-shows-list">
+                    <ul>
+                        <li>The Piano Lesson</li>
+                        <li>A Raisin in the Sun</li>
+                        <li>FAME</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-socials">
+                <div class="footer-socials-title">
+                    <h2>Socials</h2>
+                </div>
+                <div class="footer-socials-list">
+                    <ul>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </ul>
+            </div>
         </div>
     </div>
 </body>
